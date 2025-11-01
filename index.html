@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haggis Automations - Free Websites with Website Hosting. Create beautiful, free websites with local hosting.">
+    <meta name="keywords" content="free websites, web hosting, website builder, Haggis Automations">
+    <meta name="author" content="Haggis Automations">
+    <title>Haggis Automations - Free Websites with Website Hosting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+        }
+        .card-hover {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold gradient-text">
+                        <i class="fas fa-cog mr-2"></i>Haggis Automations
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="#about" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium">About</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="mobile-menu-button text-gray-700 hover:text-purple-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-600 rounded p-2" aria-label="Toggle menu" aria-expanded="false">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden pb-4 space-y-2">
+                <a href="#features" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 hover:text-purple-600 rounded transition-colors duration-300 font-medium">Features</a>
+                <a href="#benefits" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 hover:text-purple-600 rounded transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 hover:text-purple-600 rounded transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 hover:text-purple-600 rounded transition-colors duration-300 font-medium">FAQ</a>
+                <a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-purple-100 hover:text-purple-600 rounded transition-colors duration-300 font-medium">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-24 md:py-32 lg:py-40 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-4">
+                            Haggis Automations
+                        </h1>
+                        <p class="text-xl md:text-2xl text-purple-600 font-semibold leading-relaxed">
+                            Free Websites with Website Hosting
+                        </p>
+                    </div>
+                    <p class="text-lg text-gray-700 leading-relaxed max-w-xl">
+                        Transform your online presence with our revolutionary platform that combines cutting-edge automation technology with user-friendly website creation tools. Build professional, stunning websites without spending a single penny on hosting or development costs.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-lg transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                            Get Started Free
+                        </button>
+                        <button class="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-purple-50 transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-purple-500 to-purple-700 rounded-2xl p-8 shadow-2xl">
+                        <div class="bg-white rounded-lg p-6 space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-purple-600 text-xl"></i>
+                                </div>
+                                <span class="text-gray-800 font-semibold">Free Forever</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-purple-600 text-xl"></i>
+                                </div>
+                                <span class="text-gray-800 font-semibold">Beautiful Templates</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-purple-600 text-xl"></i>
+                                </div>
+                                <span class="text-gray-800 font-semibold">Local Hosting</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-purple-600 text-xl"></i>
+                                </div>
+                                <span class="text-gray-800 font-semibold">24/7 Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Powerful Features Designed for You
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    Everything you need to create, launch, and manage your professional website without any technical knowledge or hidden costs.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-star text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Beautiful Templates</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Choose from our carefully curated collection of professionally designed templates. Each template is optimized for conversion and built with modern design principles to ensure your website stands out from the competition.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>50+ Responsive Templates</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Mobile-First Design</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>SEO Optimized</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-lock text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Completely Free Forever</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        No hidden fees, no surprise charges, no premium upgrades required. Our commitment to accessibility means you get enterprise-grade features at absolutely no cost. Build unlimited websites with zero financial commitment.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>No Credit Card Required</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Unlimited Websites</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>No Hidden Costs</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-globe text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Local Hosting Included</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Your website is hosted on our secure, reliable local servers with lightning-fast load times. Enjoy 99.9% uptime guarantee, automatic backups, and enterprise-grade security without paying a hosting provider separately.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>99.9% Uptime</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Automatic Backups</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>SSL Certificate</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-paint-brush text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Drag & Drop Editor</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Create stunning websites without writing a single line of code. Our intuitive drag-and-drop editor makes website creation accessible to everyone, from complete beginners to experienced developers who value speed and simplicity.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>No Coding Required</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Real-Time Preview</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Advanced Customization</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Analytics & Insights</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Track your website's performance with comprehensive analytics. Monitor visitor behavior, conversion rates, traffic sources, and more to make data-driven decisions that grow your business and improve user engagement.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Real-Time Analytics</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Conversion Tracking</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Custom Reports</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-headset text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">24/7 Expert Support</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Our dedicated support team is always available to help. Whether you need technical assistance, design advice, or general guidance, we're here to ensure your success every step of the way with priority support.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Live Chat Support</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Email Support</li>
+                        <li><i class="fas fa-check text-purple-600 mr-2"></i>Knowledge Base</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Why Choose Haggis Automations?
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    Experience the perfect combination of powerful features, beautiful design, and local support that sets us apart from the competition.
+                </p>
+            </div>
+
+            <!-- Benefit 1 -->
+            <div class="mb-16">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">100% Free - No Hidden Charges</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            We believe great web presence should be accessible to everyone. That's why we offer unlimited website creation, hosting, and premium features completely free. No credit card required, no surprise upgrades, no catch. Build as many websites as you want without worrying about costs eating into your budget.
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Unlimited website creation and hosting</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">All premium features included at no extra cost</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Free SSL certificates and security updates</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Transparent pricing with no future charges</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gradient-to-br from-purple-500 to-purple-700 rounded-2xl p-8 shadow-xl">
+                        <div class="bg-white rounded-lg p-8 text-center">
+                            <i class="fas fa-money-bill-wave text-purple-600 text-5xl mb-4"></i>
+                            <h4 class="text-2xl font-bold text-gray-900 mb-2">$0</h4>
+                            <p class="text-gray-600 font-semibold">Forever Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 2 -->
+            <div class="mb-16">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:grid-flow-dense">
+                    <div class="lg:col-start-2">
+                        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Stunningly Beautiful Designs</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Every website you create looks professionally designed from day one. Our award-winning design team has crafted templates that are not only visually stunning but also optimized for user engagement and conversions. Stand out from competitors with a website that truly represents your brand's excellence.
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Modern, trendy design templates</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Fully responsive on all devices</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Customizable color schemes and fonts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Professional photography library included</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:col-start-1">
+                        <div class="bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl p-8 shadow-xl">
+                            <div class="space-y-4">
+                                <div class="bg-white rounded-lg p-4 shadow-md">
+                                    <div class="h-3 bg-purple-300 rounded w-3/4 mb-3"></div>
+                                    <div class="h-2 bg-gray-200 rounded mb-2"></div>
+                                    <div class="h-2 bg-gray-200 rounded w-5/6"></div>
+                                </div>
+                                <div class="bg-white rounded-lg p-4 shadow-md">
+                                    <div class="h-3 bg-purple-300 rounded w-3/4 mb-3"></div>
+                                    <div class="h-2 bg-gray-200 rounded mb-2"></div>
+                                    <div class="h-2 bg-gray-200 rounded w-5/6"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 3 -->
+            <div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Local Support You Can Trust</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Unlike distant corporations, we're here locally, dedicated to your success. Our team understands the local market, speaks your language, and provides personalized support tailored to your specific needs. Experience customer service that goes above and beyond expectations.
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Local team with market expertise</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Personalized onboarding and training</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Priority response times</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-purple-600 mt-1 mr-4 flex-shrink-0"></i>
+                                <span class="text-gray-700">Community-driven development</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gradient-to-br from-purple-500 to-purple-700 rounded-2xl p-8 shadow-xl">
+                        <div class="bg-white rounded-lg p-8 text-center">
+                            <i class="fas fa-handshake text-purple-600 text-5xl mb-4"></i>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Local First</h4>
+                            <p class="text-gray-600">Community-focused support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    What Our Users Say
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    Join thousands of satisfied customers who have transformed their online presence with Haggis Automations.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "I was amazed at how easy it was to create my business website. Within 30 minutes, I had a professional-looking site that I'm proud to share with clients. The drag-and-drop editor is intuitive, and the support team helped me with every question."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <h4 class="font-bold text-gray-900">Sarah Mitchell</h4>
+                        <p class="text-sm text-gray-600">Small Business Owner</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "The fact that it's completely free is incredible. I've tried other website builders that charge monthly fees, but Haggis Automations gives me everything I need without any hidden costs. The local support is fantastic too!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <h4 class="font-bold text-gray-900">James Robertson</h4>
+                        <p class="text-sm text-gray-600">Freelance Designer</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "My website looks absolutely stunning! The templates are modern and professional. I've received so many compliments from clients about how great my site looks. Best decision I made for my business this year."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <h4 class="font-bold text-gray-900">Emma Thompson</h4>
+                        <p class="text-sm text-gray-600">Marketing Manager</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-white rounded-xl shadow-md p-8 border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "I've been using Haggis Automations for 6 months now and I couldn't be happier. The analytics help me understand my visitors better, and the hosting reliability has been flawless. Highly recommend to anyone starting out!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <h4 class="font-bold text-gray-900">David Campbell</h4>
+                        <p class="text-sm text-gray-600">Entrepreneur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-24 md:py-32 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=400&fit=crop'); background-attachment: fixed;">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready to Launch Your Beautiful Website?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-100 max-w-2xl mx-auto mb-8 leading-relaxed">
+                Join thousands of successful entrepreneurs and business owners who have already transformed their online presence with Haggis Automations.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-lg transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                    Start Building Now
+                </button>
+                <button class="border-2 border-white text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-purple-600 transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white">
+                    Schedule Demo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 md:py-32 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Get answers to common questions about Haggis Automations and how we can help you succeed.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-50 rounded-lg border border-gray-200 overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-inset">
+                        <h3 class="text-lg font-bold text-gray-900">Is Haggis Automations really completely free?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes, absolutely! Haggis Automations is 100% free and always will be. We don't charge for website creation, hosting, domain registration, SSL certificates, or any of our premium features. We believe in making professional web presence accessible to everyone regardless of budget. There are no hidden fees, no surprise charges, and no upgrade requirements. You can create unlimited websites and enjoy all features without spending a single penny.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-50 rounded-lg border border-gray-200 overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-inset">
+                        <h3 class="text-lg font-bold text-gray-900">Do I need technical skills to create a website?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Not at all! Our drag-and-drop editor is designed for complete beginners. You don't need to know any HTML, CSS, or programming languages. Simply select a template, customize it by dragging and dropping elements, add your content, and you're done. Our intuitive interface makes it easy for anyone to create a professional-looking website in minutes. If you ever need help, our support team is available 24/7 to guide you through the process.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-50 rounded-lg border border-gray-200 overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-inset">
+                        <h3 class="text-lg font-bold text-gray-900">What kind of hosting do you provide?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            We provide enterprise-grade local hosting with 99.9% uptime guarantee. Your websites are hosted on our secure, reliable servers optimized for speed and performance. All hosting includes automatic daily backups, SSL certificates, unlimited bandwidth, and protection against common security threats. Our servers are monitored 24/7 to ensure your website is always online and performing at peak speed. You get the same hosting quality that large corporations pay thousands for, completely free.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-50 rounded-lg border border-gray-200 overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-inset">
+                        <h3 class="text-lg font-bold text-gray-900">Can I use my own domain name?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes! You can connect your own domain name or use a free subdomain from us. If you already own a domain, simply point it to our servers and it will work seamlessly. We also provide free subdomains for users who don't have their own domain yet. All domains include SSL certificates, email forwarding, and DNS management at no additional cost. Our support team can help you set up your domain in just a few minutes.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-50 rounded-lg border border-gray-200 overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-inset">
+                        <h3 class="text-lg font-bold text-gray-900">What support options are available?</h3>
+                        <i class="faq-icon fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            We offer comprehensive support through multiple channels including live chat, email, and our detailed knowledge base. Our local support team is available 24/7 to answer your questions and help you succeed. Whether you need technical assistance, design advice, or general guidance, we're here to help. We also provide personalized onboarding for new users and regular training webinars to help you get the most out of Haggis Automations. Your success is our success!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    About Haggis Automations
+                </h2>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-8 md:p-12 space-y-8">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Haggis Automations was founded with a simple mission: to democratize web presence and make professional website creation accessible to everyone, regardless of their technical skills or budget. Born from the passion of a dedicated local team, we recognized that too many talented entrepreneurs and small business owners were being priced out of having an online presence by expensive hosting providers and complicated website builders. We decided to change that. Starting as a small project in our local community, we've grown into a trusted platform serving thousands of users who have successfully launched their dreams online. Our commitment to quality, innovation, and customer satisfaction has remained unwavering from day one, driving us to continuously improve and expand our offerings.
+                </p>
+
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    At the heart of Haggis Automations are our core values: we believe in transparency, community, and empowerment. We're not just building a website platform; we're building a movement to give power back to the people. Every feature we develop, every decision we make, and every interaction we have with our users is guided by these principles. We're deeply committed to supporting our local community, maintaining the highest standards of security and reliability, and creating an inclusive environment where everyone feels welcome and supported. Our vision is to become the world's most trusted website platform, known not just for our free services but for our genuine care for our users' success and our unwavering dedication to making the web more accessible to all.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Column 1 -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6">Haggis Automations</h4>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Creating beautiful, free websites with professional hosting for everyone.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6">Product</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Pricing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Templates</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="border-t border-gray-800 pt-12 mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="flex items-center space-x-3">
+                        <i class="fas fa-envelope text-purple-400 text-xl"></i>
+                        <div>
+                            <p class="text-gray-500 text-sm">Email</p>
+                            <a href="mailto:iainhmunro@gmail.com" class="text-white hover:text-purple-400 transition-colors duration-300">iainhmunro@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fas fa-clock text-purple-400 text-xl"></i>
+                        <div>
+                            <p class="text-gray-500 text-sm">Support Hours</p>
+                            <p class="text-white">24/7 Available</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fas fa-globe text-purple-400 text-xl"></i>
+                        <div>
+                            <p class="text-gray-500 text-sm">Service Status</p>
+                            <p class="text-green-400">All Systems Operational</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2025 Haggis Automations. All rights reserved.
+                </p>
+                <p class="text-gray-400 text-sm">
+                    Made with <i class="fas fa-heart text-red-500"></i> for our community
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
